@@ -8,7 +8,7 @@ import FarmerProfile from "./images/farmer_profile.png"
 export const NavBar2 = () => {
   return (
     <>
-      <section class="dashboard">
+      <section className="dashboard">
         {/* this is where is the top bar with green backgound begins */}
         <div className="top">
           <i className=" uil uil-bars sidebar-toggle" />

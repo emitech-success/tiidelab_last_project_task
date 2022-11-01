@@ -24,7 +24,7 @@ const submitHandler = (event)=>{
 }
 export const FarmerProductUpload = () => {
   function displayProductUploadNotice() {
-    toast.error("Product uploaded successfully")
+    toast.success("Product uploaded successfully")
   } 
   return (
   <>
@@ -38,7 +38,7 @@ export const FarmerProductUpload = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme='dark'
+        theme='light'
       />
     <section className="farmers-product">
     <h5 className="farmers-product-title">New Product</h5>
